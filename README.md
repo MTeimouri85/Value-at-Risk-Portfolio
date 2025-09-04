@@ -46,4 +46,19 @@ This project implements **Value at Risk (VaR)** estimation for a diversified por
 - Extend to multi-asset classes (e.g., bonds, commodities).
 
 ---
+
+
+## Additional Project: Stress Testing Portfolio under Interest Rate Shocks
+
+This project implements **stress testing** to evaluate the impact of a 2% interest rate shock on the same 20-stock portfolio, simulating a 5% return drop.
+
+- **Objective**: Assess portfolio risk under normal and stressed conditions for 1-day and 5-day horizons.
+- **Methods**: Historical VaR calculation under a stress scenario.
+- **Output**: Comparative visualizations of return distributions and VaR estimates.
+- **Visualizations**:
+  - 1-Day Stress Test: ![1-Day Stress](stress_testing/outputs_stress/stress_histogram_1d.png)
+  - 5-Day Stress Test: ![5-Day Stress](stress_testing/outputs_stress/stress_histogram_5d.png)
+- **Technologies**: Python (NumPy, Pandas, Matplotlib, Seaborn, Arch), Yahoo Finance API
+
+- 
 Developed by [MAHSHID TEIMOURI] as a personal project to demonstrate skills in Finance, Risk Management, and Data Science.
